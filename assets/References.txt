@@ -1,0 +1,49 @@
+////////////////////////////////////////////////////////////////////////////////////
+
+Home // index
+About Fast-Nu: https://www.nu.edu.pk/Home //about_us
+Offered Programs = Degree Programmes
+Upcoming Courses = Degree Programmes
+
+////////////////////////////////////////////////////////////////////////////////////
+
+Module 1:
+
+Apply Now: https://www.nu.edu.pk/Admissions/HowToApply //New
+Dates And deadlines: http://nu.edu.pk/Admissions/Schedule //New
+Fee Structure: http://www.nu.edu.pk/Admissions/FeeStructure //New
+Degree Programs: http://khi.nu.edu.pk/offered_degrees.php // events without switching
+
+Module2:
+
+Financial Aid: http://www.nu.edu.pk/Student/FinancialRules //New
+Addmission Rules: Check PDF //New
+Departments: http://www.nu.edu.pk/Degree-Programs // events without switching
+Summer Semester: Check PDF //New
+
+Module 3:
+
+FAQs: //faq
+Examination policy: Check PDF //New
+Desciplinary Policy: Check PDF //New
+Rules And Regulation: Check PDF //New
+
+Module 4:
+
+Announcements: https://www.nu.edu.pk/Oric/Annoucements //Announcements
+TimeTable: http://khi.nu.edu.pk/academic_calendar.php //New
+Examination Schedule: https://www.nu.edu.pk/Student/Calender //New
+
+Module 5:
+
+Scholarship Opportunties: http://www.nu.edu.pk/Admissions/Scholarship //New
+Contact Academeic Officers: http://www.nu.edu.pk/home/ContactUs //contact
+Research :http://www.nu.edu.pk/Oric/FundedProjects //New
+
+Module 6:
+
+Our gallery: (Societies Type ka pae hoga usmay tamam past events ki luch pics hongi 30-40 will be enough) // portfolio without switching
+Faculty = {
+All faculties from "khi.nu.edu.pk" 
+} // profile withour switching
+Student Societies: http://khi.nu.edu.pk/index.php // potfolio 
