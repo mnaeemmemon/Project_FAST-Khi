@@ -23,6 +23,26 @@
 /*=================================
 	1. HEADER
 =================================*/
+.social_links a{
+	background-color: white;
+	border-radius: 50%;
+	font-size: 30px;
+	padding: 30px;
+	margin: 20px 12.5% 20px 12.5%;
+	text-align: center;
+}
+.social_links a.fa-facebook{
+	background-color:  #3b5998;
+	color: white;
+}
+.social_links a.fa-youtube{
+	background-color:  	#FF0000;
+	color: white;
+}
+.social_links a.fa-twitter{
+	background-color: #00acee;
+	color: white;
+}
 .bg-fix {
     background-attachment: fixed;
 	background-size: cover;

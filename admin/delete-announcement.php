@@ -148,15 +148,21 @@
 		                </a>
 					</li>
 					<li>
+						<a href="add-faculty-details.php" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-pencil-alt"></i></span>
+		                	<span class="ttr-label">Add Faculty Details</span>
+		                </a>
+					</li>
+					<li>
 						<a href="delete-faculty.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-close"></i></span>
 		                	<span class="ttr-label">Delete Faculty</span>
 		                </a>
 					</li>
 					<li>
-						<a href="update-faculty.php" class="ttr-material-button">
+						<a href="update-faculty-details.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-close"></i></span>
-		                	<span class="ttr-label">Update Faculty</span>
+		                	<span class="ttr-label">Update Faculty Details</span>
 		                </a>
 					</li>
 					<li>

@@ -154,15 +154,21 @@
 		                </a>
 					</li>
 					<li>
+						<a href="add-faculty-details.php" class="ttr-material-button">
+							<span class="ttr-icon"><i class="ti-pencil-alt"></i></span>
+		                	<span class="ttr-label">Add Faculty Details</span>
+		                </a>
+					</li>
+					<li>
 						<a href="delete-faculty.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-close"></i></span>
 		                	<span class="ttr-label">Delete Faculty</span>
 		                </a>
 					</li>
 					<li>
-						<a href="update-faculty.php" class="ttr-material-button">
+						<a href="update-faculty-details.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-close"></i></span>
-		                	<span class="ttr-label">Update Faculty</span>
+		                	<span class="ttr-label">Update Faculty Details</span>
 		                </a>
 					</li>
 					<li>
@@ -225,13 +231,19 @@
 										</div>
 									</div>
 									<div class="form-group col-6">
-										<label class="col-form-label">Faculty Introduction</label>
+										<label class="col-form-label">Faculty Designation</label>
 										<div>
 											<input class="form-control" type="text"  name="description" value="">
 										</div>
 									</div>
 									<div class="form-group col-6">
-										<label class="col-form-label">Faculty Position</label>
+										<label class="col-form-label">Faculty Room</label>
+										<div>
+											<input class="form-control" type="text"  name="description" value="">
+										</div>
+									</div>
+									<div class="form-group col-6">
+										<label class="col-form-label">Faculty Extension</label>
 										<div>
 											<input class="form-control" type="text"  name="description" value="">
 										</div>
@@ -239,13 +251,7 @@
 									<div class="form-group col-6">
 										<label class="col-form-label">Faculty Salary</label>
 										<div>
-											<input class="form-control" type="number"  name="description" value="">
-										</div>
-									</div>
-									<div class="form-group col-6">
-										<label class="col-form-label">Faculty Image (Image Format Should be JPEG)</label>
-										<div>
-											<input type="file" name="image" id="image" />
+											<input class="form-control" type="text"  name="description" value="">
 										</div>
 									</div>
 									<div class="col-12">
