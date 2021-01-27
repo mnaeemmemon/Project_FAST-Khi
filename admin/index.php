@@ -36,7 +36,23 @@
 	
 	<!-- MOBILE SPECIFIC ============================================= -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
+	<script>
+		var el = document.getElementByClass("dropdown-btn").OnClick = function(){
+			alert("hi");
+			console.log("hii");
+			var check = document.getElementByClass("facultypor");
+			if(check.style.display=="none")
+			{
+				check.style.display=="block";
+			}
+			else if(check.style.display=="block";)
+			{
+				check.style.display=="none"
+			} 
+		}
+		window.onload = el
+	</script>
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.min.js"></script>
 	<script src="assets/js/respond.min.js"></script>
@@ -110,40 +126,42 @@
 					<li>
 						<a href="faculty.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-view-list-alt"></i></span>
-		                	<span class="ttr-label">Faculty</span>
+		                	<span class="ttr-label">All Faculty</span>
 		                </a>
 		            </li>
 					<li>
 						<a href="announcement.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-view-list-alt"></i></span>
-		                	<span class="ttr-label">Announcements</span>
+		                	<span class="ttr-label">All Announcements</span>
 		                </a>
 		            </li>
 					<li class="ttr-seperate"></li>
-					<li>
-						<a href="add-faculty.php" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-pencil-alt"></i></span>
-		                	<span class="ttr-label">Add Faculty</span>
-		                </a>
-					</li>
-					<li>
-						<a href="add-faculty-details.php" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-pencil-alt"></i></span>
-		                	<span class="ttr-label">Add Faculty Details</span>
-		                </a>
-					</li>
-					<li>
-						<a href="delete-faculty.php" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-close"></i></span>
-		                	<span class="ttr-label">Delete Faculty</span>
-		                </a>
-					</li>
-					<li>
-						<a href="update-faculty-details.php" class="ttr-material-button">
-							<span class="ttr-icon"><i class="ti-close"></i></span>
-		                	<span class="ttr-label">Update Faculty Details</span>
-		                </a>
-					</li>
+					<div class="facultypor">
+						<li>
+							<a href="add-faculty.php" class="ttr-material-button">
+								<span class="ttr-icon"><i class="ti-pencil-alt"></i></span>
+								<span class="ttr-label">Add Faculty</span>
+							</a>
+						</li>
+						<li>
+							<a href="add-faculty-details.php" class="ttr-material-button">
+								<span class="ttr-icon"><i class="ti-pencil-alt"></i></span>
+								<span class="ttr-label">Add Faculty Details</span>
+							</a>
+						</li>
+						<li>
+							<a href="delete-faculty.php" class="ttr-material-button">
+								<span class="ttr-icon"><i class="ti-close"></i></span>
+								<span class="ttr-label">Delete Faculty</span>
+							</a>
+						</li>
+						<li>
+							<a href="update-faculty-details.php" class="ttr-material-button">
+								<span class="ttr-icon"><i class="ti-close"></i></span>
+								<span class="ttr-label">Update Faculty Details</span>
+							</a>
+						</li>
+					</div>
 					<li>
 						<a href="add-announcement.php" class="ttr-material-button">
 							<span class="ttr-icon"><i class="ti-pencil-alt"></i></span>

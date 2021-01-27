@@ -213,9 +213,6 @@
 				<!-- Your Profile Views Chart -->
 				<div class="col-lg-12 m-b30">
 					<div class="widget-box">
-						<div class="wc-title">
-							<h4>Add Faculty</h4>
-						</div>
 						<div class="widget-inner">
 							<form  class="edit-profile m-b30" method="post" enctype="multipart/form-data" >
 								<div class="row">
@@ -225,16 +222,36 @@
 										</div>
 									</div>
 									<div class="form-group col-6">
-										<label class="col-form-label">Faculty Name</label>
+										<label class="col-form-label">Title</label>
+										<select name="name">
+										<option value="mr">Mr.</option>
+										<option value="miss">Miss.</option>
+										</select>
+									</div>
+									<div class="form-group col-6">
+										<label class="col-form-label">Faculty First Name</label>
 										<div>
 											<input class="form-control" type="text" name="name" value="">
 										</div>
 									</div>
 									<div class="form-group col-6">
-										<label class="col-form-label">Faculty Designation</label>
+										<label class="col-form-label">Faculty Last Name</label>
 										<div>
-											<input class="form-control" type="text"  name="description" value="">
+											<input class="form-control" type="text" name="name" value="">
 										</div>
+									</div>
+									<div class="form-group col-6">
+										<label class="col-form-label">Faculty Email Address</label>
+										<div>
+											<input class="form-control" type="email"  name="description" value="">
+										</div>
+									</div>
+									<div class="form-group col-6">
+										<label class="col-form-label">Faculty Designation</label>
+										<select name="designation">
+										<option value="Professor">Professor.</option>
+										<option value="Assistant-Professor">Assistant Professor.</option>
+										</select>
 									</div>
 									<div class="form-group col-6">
 										<label class="col-form-label">Faculty Room</label>
@@ -249,9 +266,9 @@
 										</div>
 									</div>
 									<div class="form-group col-6">
-										<label class="col-form-label">Faculty Salary</label>
+										<label class="col-form-label">Faculty Joining Year</label>
 										<div>
-											<input class="form-control" type="text"  name="description" value="">
+											<input class="form-control" type="date"  name="description" value="">
 										</div>
 									</div>
 									<div class="col-12">

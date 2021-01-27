@@ -7,6 +7,20 @@ Theme Version:	1.0.0
 ***
 ***
 */
+function showfaculty()
+{
+	alert("hi");
+	console.log("hii");
+	var check = document.getElementByClass("facultypor");
+	if(check.style.display=="none")
+	{
+		check.style.display=="block";
+	}
+	else if(check.style.display=="block";)
+	{
+		check.style.display=="none"
+	} 
+}
 (function($) {
 	
 		'use strict';

@@ -23,6 +23,21 @@
 /*=================================
 	1. HEADER
 =================================*/
+.facultypor{
+	display: block;
+}
+.dropdown-btn {
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+	display: block;
+	border: none;
+	background: none;
+	width:100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
 .bg-fix {
     background-attachment: fixed;
 	background-size: cover;

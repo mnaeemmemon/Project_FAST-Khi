@@ -67,12 +67,6 @@
 						'</div>'+
 					'</div>'+
 					'<div style="width: 49%; float: left" class="form-group col-6">'+
-						'<label class="col-form-label">Joining Year</label>'+
-						'<div>'+
-							'<input class="form-control" type="date"  name="description" value="">'+
-						'</div>'+
-					'</div>'+
-					'<div style="width: 49%; float: right" class="form-group col-6">'+
 						'<label class="col-form-label">Pass out Year</label>'+
 						'<div>'+
 							'<input class="form-control" type="date"  name="description" value="">'+
@@ -120,7 +114,7 @@
 						'</div>'+
 					'</div>'+
 					'<div style="width: 49%; float: right" class="form-group col-6">'+
-						'<label class="col-form-label">Detail</label>'+
+						'<label class="col-form-label">Abstract</label>'+
 						'<div>'+
 							'<input class="form-control" type="text"  name="description" value="">'+
 						'</div>'+
@@ -140,17 +134,19 @@
 				$('<div style="width: 100%">'+
 				'<hr style="background-color: black; border-radius: 10px; height: 2px; width: 100%">'+
 				'<div style="width: 49%; float: left" class="form-group col-6">'+
-						'<label class="col-form-label">Title</label>'+
-						'<div>'+
-							'<input class="form-control" type="text"  name="description" value="">'+
-						'</div>'+
-					'</div>'+
-					'<div style="width: 49%; float: right" class="form-group col-6">'+
-						'<label class="col-form-label">Code</label>'+
-						'<div>'+
-							'<input class="form-control" type="text"  name="description" value="">'+
-						'</div>'+
-					'</div>'+
+					'<label style="margin-right: 10px;" class="col-form-label">Title</label>'+
+					'<select name="title">'+
+					'<option value="Db">Database.</option>'+
+					'<option value="hci">Human Computer Interaction.</option>'+
+					'</select>'+
+				'</div>'+
+				'<div style="width: 49%; float: right" class="form-group col-6">'+
+				'<label style="margin-right: 10px;" class="col-form-label">Code</label>'+
+					'<select name="code">'+
+					'<option value="123">CS123</option>'+
+					'<option value="456">CS456</option>'+
+					'</select>'+
+				'</div>'+
 					'<div style="width: 49%; float: left" class="form-group col-6">'+
 						'<label class="col-form-label">Section</label>'+
 						'<div>'+
@@ -165,6 +161,34 @@
 					'</div>'+
 					'</div>');
 				$('#course').append(newDiv3);
+			});
+		});
+		$(function() {
+			$('#btnAddactivity').click(function(){
+				var newDiv = 
+				$('<div style="width: 100%">'+
+				'<hr style="background-color: black; border-radius: 10px; height: 2px; width: 100%">'+
+				'<div style="width: 49%; float: left" class="form-group col-6">'+
+						'<label class="col-form-label">Title</label>'+
+						'<div>'+
+							'<input class="form-control" type="text"  name="description" value="">'+
+						'</div>'+
+					'</div>'+
+					'<div style="width: 49%; float: right" class="form-group col-6">'+
+						'<label class="col-form-label">Name</label>'+
+						'<div>'+
+							'<input class="form-control" type="text"  name="description" value="">'+
+						'</div>'+
+					'</div>'+
+					'<div style="width: 49%; float: left" class="form-group col-6">'+
+							'<label style="margin-right: 10px;" class="col-form-label">Designation</label>'+
+							'<select name="act_designation">'+
+							'<option value="head">Faculty head</option>'+
+							'<option value="co_head">Co Faculty head</option>'+
+							'</select>'+
+					'</div>'+
+					'</div>');
+				$('#activity').append(newDiv);
 			});
 		});
 	</script>
@@ -336,9 +360,6 @@
 				<!-- Your Profile Views Chart -->
 				<div class="col-lg-12 m-b30">
 					<div class="widget-box">
-						<div class="wc-title">
-							<h4>Add Faculty</h4>
-						</div>
 						<div class="widget-inner">
 							<form  class="edit-profile m-b30" method="post" enctype="multipart/form-data" >
 								<div class="row">
@@ -361,6 +382,13 @@
 										<div>
 											<input class="form-control" type="email"  name="description" value="">
 										</div>
+									</div>
+									<div class="form-group col-6">
+									<label class="col-form-label">Faculty Designation</label>
+										<select name="designation">
+										<option value="Professor">Professor.</option>
+										<option value="Assistant-Professor">Assistant Professor.</option>
+										</select>
 									</div>
 									<div class="form-group col-6">
 										<label class="col-form-label">Faculty Linked In</label>
@@ -398,12 +426,6 @@
 										</div>
 									</div>
 									<div style="width: 49%; float: left" class="form-group col-6">
-										<label class="col-form-label">Joining Year</label>
-										<div>
-											<input class="form-control" type="date"  name="description" value="">
-										</div>
-									</div>
-									<div style="width: 49%; float: right" class="form-group col-6">
 										<label class="col-form-label">Pass out Year</label>
 										<div>
 											<input class="form-control" type="date"  name="description" value="">
@@ -447,15 +469,17 @@
 									<div style="width: 100%" id="course">
 									<div style="width: 49%; float: left" class="form-group col-6">
 										<label class="col-form-label">Title</label>
-										<div>
-											<input class="form-control" type="text"  name="description" value="">
-										</div>
+										<select name="title">
+										<option value="Db">Database.</option>
+										<option value="hci">Human Computer Interaction.</option>
+										</select>
 									</div>
 									<div style="width: 49%; float: right" class="form-group col-6">
-										<label class="col-form-label">Code</label>
-										<div>
-											<input class="form-control" type="text"  name="description" value="">
-										</div>
+									<label class="col-form-label">Code</label>
+										<select name="code">
+										<option value="123">CS123</option>
+										<option value="456">CS456</option>
+										</select>
 									</div>
 									<div style="width: 49%; float: left" class="form-group col-6">
 										<label class="col-form-label">Section</label>
@@ -485,7 +509,7 @@
 										</div>
 									</div>
 									<div style="width: 49%; float: right" class="form-group col-6">
-										<label class="col-form-label">Details</label>
+										<label class="col-form-label">Abstract</label>
 										<div>
 											<input class="form-control" type="text"  name="description" value="">
 										</div>
@@ -504,8 +528,30 @@
 									<hr style="background-color: black; border-radius: 10px; height: 5px; width: 100%">
 									<h1 style="text-align: center; width: 100%">Activities</h1>
 
-									<div style="width: 100%">
-										<textarea placeholder="Enter Your Social Activities Details" rows="5" cols="103" style="padding: 5px" ></textarea>
+									<div style="width: 100%" id="activity">
+									<div style="width: 49%; float: left" class="form-group col-6">
+										<label class="col-form-label">Title</label>
+										<div>
+											<input class="form-control" type="text"  name="description" value="">
+										</div>
+									</div>
+									<div style="width: 49%; float: left" class="form-group col-6">
+										<label class="col-form-label">Name</label>
+										<div>
+											<input class="form-control" type="text"  name="description" value="">
+										</div>
+									</div>
+									<div style="width: 49%; float: left" class="form-group col-6">
+										<label class="col-form-label">Designation</label>
+										<select name="act_designation">
+										<option value="head">Faculty head</option>
+										<option value="co_head">Co Faculty head</option>
+										</select>
+									</div>
+									</div>
+
+									<div class="col-12">
+    									<button style="margin-top: 20px; width: 80%; margin-left:auto; margin-right: auto; display: block" type="button" id="btnAddactivity" class="btn">Add Activity</button>
 									</div>
 
 									<hr style="background-color: black; border-radius: 10px; height: 5px; width: 100%">
